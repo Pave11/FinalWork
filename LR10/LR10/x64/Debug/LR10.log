@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\79875\source\repos\LR10\LR10\main.c(26,13): warning C4477: "fscanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "int **"
+C:\Users\79875\source\repos\LR10\LR10\main.c(27,11): warning C4047: =: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\79875\source\repos\LR10\LR10\main.c(37,2): warning C4013: getch: нет определения; предполагается "extern" с возвратом типа "int"
+main.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  LR10.vcxproj -> C:\Users\79875\source\repos\LR10\x64\Debug\LR10.exe
