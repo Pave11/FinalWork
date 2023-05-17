@@ -7,7 +7,10 @@ int main() {
 	FILE* a = fopen("a.txt", "w");
 	float sr1 = 0;
 	char g1[100];
-	int m1[10], m2[10], sum1 = 0, el;
+	int m1[10];
+	int m2[10];
+	int sum1 = 0; //Переменная для суммы всех элементов массива
+	int el;
 	for (int i = 0; i < 10; i++) {
 		m1[i] = rand() % 100;
 		fprintf(a, " %d\n", m1[i]);
